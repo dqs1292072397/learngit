@@ -1,0 +1,6 @@
+NOTE1:	在添加远程库时，使用git push -u origin master时，报错：
+		$ git push -u origin master
+		git@github.com: Permission denied (publickey).
+		fatal: Could not read from remote repository.
+	解决：
+		在本地.git目录下的config文件中，把url = 后的内容改成https://github.com/dqs1292072397/learngit.git
